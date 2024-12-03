@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Create a DF from our input text
-df = pd.read_csv('inputs/input-1.txt', sep='   ', names=['left','right'])
+df = pd.read_csv('inputs/input.txt', sep='   ', names=['left','right'])
 
 sorted_left = sorted(df['left'].values)
 sorted_right = sorted(df['right'].values)

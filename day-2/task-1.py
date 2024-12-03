@@ -1,6 +1,6 @@
 safe_reports = 0
 
-with open("inputs/input-1.txt") as file:
+with open("inputs/input.txt") as file:
     for line in file:
         line = line.split()
 

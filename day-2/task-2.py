@@ -1,4 +1,4 @@
-D = open("inputs/input-1.txt").read().strip()
+D = open("inputs/input.txt").read().strip()
 lines = D.split('\n')
 safe_reports = 0
 
